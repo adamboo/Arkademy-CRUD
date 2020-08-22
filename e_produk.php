@@ -98,7 +98,7 @@ $data  = mysql_fetch_array($hasil);
                     <div class="form-group">
                     <div class="form-group">
                       <label for="exampleInputPassword1">Nama Produk</label>
-                      <input type="text" class="form-control" value="<?php echo $data['nama_produk']; ?>" name="nama" placeholder="Nama Produk">
+                      <input type="text" class="form-control" value="<?php echo $data['nama_produk']; ?>" name="nama" placeholder="Nama Produk" readonly>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputPassword1">Keterangan</label>
